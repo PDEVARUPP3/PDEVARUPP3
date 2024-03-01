@@ -9,7 +9,7 @@
 
 **TABLE OF CONTENTS**
 
-Python 
+🐍: Python 
 
 [Sales Dashboard](https://github.com/PDEVARUPP3/Data-analysis-Portfolio/blob/main/Sales%20Dashboard)
 
@@ -18,7 +18,7 @@ Python
 [Customer Segmentation](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/CustomerSegmentationUsingClustering.py)
 
 
-SQL 
+💾: SQL 
 
 [Healthcare Analytics]
 
@@ -27,7 +27,7 @@ SQL
 [Fraud Detection]
 
 
-R
+💻: R
 
 [CLV-Customer Lifetime Value Analysis]
 
