@@ -20,8 +20,19 @@ Python
 
 SQL 
 
+[Healthcare Analytics]
+
+[E-Com Analytics]
+
+[Fraud Detection]
+
 
 R
+
+[CLV-Customer Lifetime Value Analysis]
+
+[Supply Chain]
+
 
 
 
