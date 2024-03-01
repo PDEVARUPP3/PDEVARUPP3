@@ -15,7 +15,7 @@ Python
 
 [Competitor Analysis](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/Competitor%20analysis)
 
-[Customer Segmentation]
+[Customer Segmentation](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/CustomerSegmentationUsingClustering.py)
 
 
 SQL 
