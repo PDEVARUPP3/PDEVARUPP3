@@ -8,10 +8,20 @@
 My CV in [pdf](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/pooja_cv_new-github.pdf)
 
 Table of Contents: 
+
+
 Python 
+
+
 (Sales Dashboard)
+
+
 (Competetor Analysis)
+
+
 (Customer Segmentation)
+
+
 SQL 
 
 
