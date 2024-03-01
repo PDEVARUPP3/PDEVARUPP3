@@ -2,7 +2,7 @@
 👀 I’m interested in Giving data-driven strategic solutions to business problems using data analytics 
 🌱 I’m currently pursuing MBA in Roehampton University, London and did my Computer Science Engineering from India, So I'm a mix of both Tech and Business 
 💞️ I’m here to help you solve your business problems using data-driven methods, your business data statistics with Python and R 
-📫 You can mail me at devaruppalapooja3@gmail.com or Hit me up on Linkedin: https://www.linkedin.com/in/pooja-devaruppala-b13532
+📫 You can [mail me](devaruppalapriya@gmail.com) or Hit me up on [Linkedin](https://www.linkedin.com/in/pooja-devaruppala-b13532)
 /n 
 /n 
 My CV in [pdf](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/pooja_cv_new-github.pdf)
