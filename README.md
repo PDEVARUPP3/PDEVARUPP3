@@ -13,7 +13,7 @@ Python
 
 [Sales Dashboard](https://github.com/PDEVARUPP3/Data-analysis-Portfolio/blob/main/Sales%20Dashboard)
 
-(Competitor Analysis)(https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/Competitor%20analysis)
+[Competitor Analysis](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/Competitor%20analysis)
 
 (Customer Segmentation)
 
