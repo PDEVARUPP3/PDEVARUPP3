@@ -1,0 +1,58 @@
+import requests
+from bs4 import BeautifulSoup
+
+def scrape_product_info(url):
+    # Send a GET request to the competitor's website
+    response = requests.get(url)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        # Extract product information
+        product_info = []
+        products = soup.find_all(class_='product-item')
+        for product in products:
+            name = product.find(class_='product-name').text.strip()
+            price = product.find(class_='product-price').text.strip()
+            product_info.append({'name': name, 'price': price})
+        
+        return product_info
+    else:
+        print("Failed to retrieve data from the competitor's website.")
+        return None
+
+def scrape_customer_reviews(url):
+    # Send a GET request to the competitor's website
+    response = requests.get(url)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        # Extract customer reviews
+        customer_reviews = []
+        reviews = soup.find_all(class_='customer-review')
+        for review in reviews:
+            text = review.find(class_='review-text').text.strip()
+            rating = review.find(class_='review-rating').text.strip()
+            customer_reviews.append({'text': text, 'rating': rating})
+        
+        return customer_reviews
+    else:
+        print("Failed to retrieve data from the competitor's website.")
+        return None
+
+if __name__ == '__main__':
+    # URL of the competitor's website
+    competitor_url = 'https://www.example.com'
+    
+    # Scrape product information
+    product_info = scrape_product_info(competitor_url)
+    if product_info:
+        print("Product Information:")
+        for product in product_info:
+            print(f"Name: {product['name']}, Price: {product['price']}")
+    
+    # Scrape customer reviews
+    customer_reviews = scrape_customer_reviews(competitor_url)
+    if customer_reviews:
+        print("\nCustomer Reviews:")
+        for review in customer_reviews:
+            print(f"Rating: {review['rating']}, Text: {review['text']}")
