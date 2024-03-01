@@ -5,4 +5,5 @@
 📫 You can mail me at devaruppalapooja3@gmail.com or Hit me up on Linkedin: https://www.linkedin.com/in/pooja-devaruppala-b13532
 /n 
 /n 
-My CV in pdf : 
+My CV in pdf : https://github.com/
+
