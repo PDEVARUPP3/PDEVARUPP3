@@ -31,7 +31,7 @@
 
 [CLV-Customer Lifetime Value Analysis](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/main.r)
 
-[Supply Chain]
+[Supply Chain](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/SupplyChainR)
 
 
 
