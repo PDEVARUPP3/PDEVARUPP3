@@ -1,0 +1,24 @@
+# Install and load required packages
+install.packages("igraph")
+library(igraph)
+
+# Define supply chain components within the department
+nodes <- c("Department 1", "Supplier 1", "Supplier 2", "Manufacturer 1", "Manufacturer 2", "Distributor 1", "Retailer 1", "Retailer 2")
+
+# Define connections between supply chain components
+edges <- c(
+  "Supplier 1", "Department 1",
+  "Supplier 2", "Department 1",
+  "Department 1", "Manufacturer 1",
+  "Department 1", "Manufacturer 2",
+  "Manufacturer 1", "Distributor 1",
+  "Manufacturer 2", "Distributor 1",
+  "Distributor 1", "Retailer 1",
+  "Distributor 1", "Retailer 2"
+)
+
+# Create a directed graph representing the supply chain within the department
+department_supply_chain <- graph(edges, vertices = nodes, directed = TRUE)
+
+# Plot the supply chain network within the department
+plot(department_supply_chain, layout = layout.fruchterman.reingold, vertex.color = "lightblue", vertex.size = 20, edge.arrow.size = 0.5, edge.curved = TRUE)
