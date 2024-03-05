@@ -24,7 +24,7 @@
 
 [E-Com Analytics](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/ECom%20Analysis%20SQL%20Script.sql)
 
-[Fraud Detection]
+[Fraud Detection](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/Fraud%20Detection%20SQL%20Code.sql)
 
 
 💻: R
