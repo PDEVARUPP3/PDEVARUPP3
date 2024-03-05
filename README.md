@@ -20,7 +20,7 @@
 
 💾: SQL 
 
-[Healthcare Analytics]
+[Healthcare Analytics](https://github.com/PDEVARUPP3/PDEVARUPP3/blob/main/HealthcareAnalysisSQL.sql)
 
 [E-Com Analytics]
 
